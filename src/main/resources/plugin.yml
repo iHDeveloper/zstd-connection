@@ -1,0 +1,4 @@
+name: ZstdConnection
+version: 0.1
+author: iHDeveloper
+main: me.ihdeveloper.zstd_connection.Main

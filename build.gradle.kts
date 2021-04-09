@@ -49,6 +49,8 @@ allprojects {
     }
 
     dependencies {
+        implementation("com.github.luben:zstd-jni:1.4.9-4")
+
         // Include the server jar source
         if (buildTools.useLocalDependency) {
             compileOnly("org.spigotmc:spigot:${buildTools.localDependencyVersion}")
